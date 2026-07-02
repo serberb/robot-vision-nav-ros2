@@ -1,0 +1,18 @@
+base_serial_node:
+  ros__parameters:
+    port: /dev/serial0
+    baudrate: 115200
+    wheel_radius: 0.05
+    wheel_base_x: 0.176
+    wheel_separation_y: 0.2986
+    ticks_per_rev: 60400.0
+    yaw_odom_scale: 0.97
+    max_wheel_mps: 0.40
+    lf_cmd_sign: 1.0
+    rf_cmd_sign: 1.0
+    lr_cmd_sign: 1.0
+    rr_cmd_sign: 1.0
+    lf_odom_sign: 1.0
+    rf_odom_sign: 1.0
+    lr_odom_sign: 1.0
+    rr_odom_sign: 1.0
