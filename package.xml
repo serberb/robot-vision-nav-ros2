@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robot_bringup</name>
+  <version>1.0.0</version>
+  <description>整合级启动包，统一管理视觉、点云、导航三大子系统的启动与配置</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>astra_camera</exec_depend>
+  <exec_depend>astra_camera_msgs</exec_depend>
+  <exec_depend>robot_vision</exec_depend>
+  <exec_depend>robot_vision_msgs</exec_depend>
+  <exec_depend>my_pcl_pkg</exec_depend>
+  <exec_depend>my_robot_base</exec_depend>
+  <exec_depend>my_robot_sensors</exec_depend>
+  <exec_depend>sllidar_ros2</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_amcl</exec_depend>
+  <exec_depend>nav2_lifecycle_manager</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>robot_localization</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
